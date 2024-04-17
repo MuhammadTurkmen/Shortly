@@ -1,3 +1,6 @@
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+
 const input = document.getElementById("link-input");
 const linkForm = document.getElementById("link-form");
 const errMsg = document.getElementById("err-msg");
