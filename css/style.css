@@ -539,6 +539,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 56rem;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -611,6 +615,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.5rem;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .bg-cyan {
   --tw-bg-opacity: 1;
   background-color: hsl(180 66% 49% / var(--tw-bg-opacity));
@@ -627,6 +635,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-8 {
@@ -682,6 +694,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.placeholder-yellow-500::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-yellow-500:-ms-input-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-yellow-500::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(234 179 8 / var(--tw-placeholder-opacity));
+}
+
 .hover\:text-veryDarkViolet:hover {
   --tw-text-opacity: 1;
   color: hsl(260 8% 14% / var(--tw-text-opacity));
@@ -689,6 +716,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:opacity-70:hover {
   opacity: 0.7;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (min-width: 768px) {
